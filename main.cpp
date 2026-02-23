@@ -32,9 +32,9 @@ int main() {
 
     const auto elapsed_us = chrono::duration_cast<chrono::microseconds>(finish - start).count();
 
-    cout << static_cast<double>(elapsed_us) / 1000 << " ms" << endl;
+    cout << static_cast<double>(elapsed_us) / 1000 << endl;
 
-    cout << n;     // print the result to output stream
+        // print the result to output stream
     return 0;
 }
 
